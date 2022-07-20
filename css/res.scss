@@ -1,0 +1,201 @@
+@media (max-width: 1200px) {
+    .header{
+        &_input{
+            display: none;
+        }
+        &_list{
+            gap: 0px 20px;
+        }
+
+    }
+    .market{
+        &_product{
+            gap: 30px 50px;
+        }
+        &_product-btn{
+            margin: 25px auto;
+        }
+    }
+    .creator{
+        &_wrapper{
+            gap: 30px;
+        }
+    }
+    .user {
+        &_wrapper{
+            gap: 30px;
+        }
+    }
+    .footer{
+        padding: 80px;
+    }
+}
+
+@media (max-width: 992px) {
+    .header{
+        &_list{
+            display: none;
+        }
+    }
+    .content{
+        flex-direction: column-reverse;
+        padding: 50px;
+        padding-bottom: 0;
+        align-items: center;
+        &_img{
+        width: fit-content;
+        }
+        &_details{
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+        &_details-heading{
+            order:2;
+            text-align:center;
+            font-size: 30px;
+        }
+        &_details--rate{
+            order: 3;
+        }
+        &_details--btn{
+            width: 100%;
+        }
+        &_details--btn a{
+            margin: 0 auto;
+            display: block;
+        }
+        &_details-desc{
+            display: none;
+        }
+
+    }
+    .logo{
+        gap: 0 30px;
+    }
+    .market{
+        &_menu-list{
+            gap: 40px;
+        }
+        &_product{
+            padding: 0;
+        }
+    }
+
+    .community{
+        padding: 62px 47px;
+        &_container{
+            padding: 65px 29px;
+        }
+    }
+
+    .footer{
+        padding: 80px 30px;
+    }
+}
+@media (max-width: 800px) {
+    .footer{
+        &_top{
+            display: block;
+        }
+        &_top-right{
+            justify-content: space-between;
+        }
+        &_bot{
+
+            flex-direction: column;
+            margin-top: 30px;
+            gap: 10px;
+        }
+    }
+
+}
+
+
+@media (max-width: 460px) {
+    .header{
+        padding: 15px;
+        padding-left: 30px;
+        &_btn{
+            display: none;
+        }
+    }
+    .content{
+        padding: 5px;
+        
+        &_img{
+            max-width: 300px;
+        }
+
+        &_img-img{
+            max-width: 250px;
+        }
+        &_img-heading{
+            align-items: center;
+        }
+        &_img-heading h3{
+            font-size: 14px;
+        }
+        &_img-heading--more{
+            gap: 0 44px;
+        }
+        &_details--rate-item p{
+            font-size: 25px;
+        }
+        &_details-heading{
+            display: none;
+        }
+        &_details--rate{
+            gap: 0 50px;
+            margin-bottom: 15px;
+        }
+    }
+    .logo{
+        padding: 0 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+
+        img{
+            max-width: 70%;
+        }
+    }
+    .market{
+        padding: 76px 44px;
+
+        &_menu-list{
+            justify-content: unset;
+            gap: 30px;
+        }
+
+        &_menu--item:nth-child(4){
+            order: 4;
+        }
+    }
+    .creator{
+        padding: 20px 15px 90px;
+
+        &_item{
+            padding: 7px;
+            min-width: 313px;
+        }
+    }
+    .user{
+        padding: 20px 20px 90px
+    }
+    .community{
+        padding: 0 15px;
+        &_container{
+            padding: 30px 10px;
+            text-align: unset;
+        }
+    }
+
+    .footer_top-right{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+}
